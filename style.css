@@ -1,0 +1,11 @@
+.box{
+    background-color: blue;
+    height: 3rem;
+    margin: 1rem;
+    width: 5rem;
+}
+#box3{
+    position: relative;
+   left: 4rem;
+   bottom: 15px;
+}
