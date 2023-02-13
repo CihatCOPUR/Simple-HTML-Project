@@ -1,41 +1,89 @@
-.box{
+*{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Gentium Book Plus', serif;
+    background-color: #f9ecc3;
 }
-body{
-    background-color: #fffbee;
 
-}
 .firstDiv{
     padding-top: 3px;
     padding-left: 10px;
-    background-image: linear-gradient(45deg,#ff7133,#fff165);
+    background-image: linear-gradient(-45deg,#ff7133,#f2efd2);
     margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   
 }
 img{
     width: 3%;
     height: 5%;
         
 }
+.firstDiv ul{
+    position: absolute;
+    right: 5%;
+    font-size: 1.2rem;
+     list-style-type: none;
+    display: flex;
+    padding-right: 1rem;
+  background-color: #f2efd200;
+  
+}
+
+.firstDiv ul li{
+    background-color: aquamarine;
+    width: 6rem;
+    border: 2px solid rgb(30, 29, 29);
+    padding: 0 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.firstDiv ul li:hover{
+    background-color: rgb(2, 141, 141);
+    color: wheat;
+}
+
 nav{
     text-align: center;
+    margin-top: 1rem;
 }
-nav ul {
-    
-}
+
 nav ul li{
     font-size: 2rem;
     display: inline-block;
     width: 8rem;
-    background-color: #fffbb0;
+    background-color: #f7f07a;
     margin-left: 1rem;
     border-radius: 8px;
     padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 900;
 }
+
+nav ul li:hover{
+    background-color:black ;
+    color:#f7f07a ;
+}
+
 main p{
     text-indent: 2rem;
     margin: 1rem 2rem;
     
+}
+.earth{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    cursor: pointer;
+}
+.earth:hover{
+    width: 4.5rem;
+    height: 4.5rem;
 }
